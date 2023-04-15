@@ -72,7 +72,7 @@ The content was a bunch of strings with one marked as password for next task.
 
 I then used grep command to find all the strings and used * to search for file.
 
-Upon seeing Is a directory I used \*/\* then \*/\*/\* to finally get the strings. Each string were contained in two different directories. %%%
+Upon seeing that the location of text file containing the string is in a directory I used \*/\* then \*/\*/\* to finally get the strings. Each string were contained in two different files. %%%
 
 
 
