@@ -26,8 +26,6 @@ Then ran man on terminal. %%%
 
 ``` 
 
-
-
 %%% What manual page do you want?
 
 For example, try 'man man'. %%%
@@ -74,7 +72,7 @@ The content was a bunch of strings with one marked as password for next task.
 
 I then used grep command to find all the strings and used * to search for file.
 
-Upon seeing Is a directory I used */* then */*/* to finally get the strings. Each string were contained in two different directories. %%%
+Upon seeing Is a directory I used \*/\* then \*/\*/\* to finally get the strings. Each string were contained in two different directories. %%%
 
 
 
@@ -98,7 +96,7 @@ Reasoning - %%%I used grep to find the location of the string, there were two el
 
 I tried to unzip fourth.zip and tried eleven.txt as password first which worked.
 
-I opened the get_in directory and then used grep "DevOps" */*/* to finally get the string%%%
+I opened the get_in directory and then used grep "DevOps" \*/\*/\* to finally get the string%%%
 
 
 
